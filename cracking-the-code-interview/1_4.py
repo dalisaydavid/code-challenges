@@ -24,7 +24,9 @@ def is_permutation_palindrome(phrase):
 	
 	return True
 	
-print(is_permutation_palindrome("star"))
-print(is_permutation_palindrome("racecar"))
-print(is_permutation_palindrome("rc ae rac"))
-print(is_permutation_palindrome("dood"))
+print("star: ", is_permutation_palindrome("star"))
+print("racecar: ", is_permutation_palindrome("racecar"))
+print("rc ae rac: ", is_permutation_palindrome("rc ae rac"))
+print("dood: ", is_permutation_palindrome("dood"))
+print("doodvvvdood", is_permutation_palindrome("doodvvvdood"))
+print("doodvxvxvdood", is_permutation_palindrome("doodvxvxvdood"))
